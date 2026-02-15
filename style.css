@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px solid #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    background-color: #ffffff;
+    border: 2px solid black;
+    padding: 15px;
+    transition: transform 0.3s ease;
+}
+
+table td:hover {
+    transform: scale(1.05);
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+}
+
+.NavBar h1 {
+    color: white;
+    margin: 0;
+}
+
+.NavBar a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+.NavBar a:hover {
+    transform: scale(1.1);
+}
